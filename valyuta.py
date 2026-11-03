@@ -33,7 +33,6 @@ def kurs_hisobla():
             bir_birlik_kurs = kurs / nominal
             jami_som = miqdor * bir_birlik_kurs
 
-            print("\n------------------------------")
             print(f"Valyuta: {nomi}")
             print(f"Miqdor: {miqdor} {valyuta_kodi}")
             print(f"1 {valyuta_kodi} kursi: {bir_birlik_kurs:,.2f} so'm")
